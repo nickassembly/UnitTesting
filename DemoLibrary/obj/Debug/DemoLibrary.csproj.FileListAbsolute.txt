@@ -1,0 +1,5 @@
+D:\Dev\DotNet\UnitTesting\DemoLibrary\bin\Debug\DemoLibrary.dll
+D:\Dev\DotNet\UnitTesting\DemoLibrary\bin\Debug\DemoLibrary.pdb
+D:\Dev\DotNet\UnitTesting\DemoLibrary\obj\Debug\DemoLibrary.csprojAssemblyReference.cache
+D:\Dev\DotNet\UnitTesting\DemoLibrary\obj\Debug\DemoLibrary.dll
+D:\Dev\DotNet\UnitTesting\DemoLibrary\obj\Debug\DemoLibrary.pdb
