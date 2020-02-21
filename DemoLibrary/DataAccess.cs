@@ -11,60 +11,62 @@ using System.Threading.Tasks;
 
 namespace DemoLibrary
 {
-    public static class DataAccess
-    {
-        private static string personTextFile = "PersonText.txt";
+   public static class DataAccess
+   {
+      private static string personTextFile = "PersonText.txt";
 
-        public static void AddNewPerson(PersonModel person)
-        {
-            List<PersonModel> people = GetAllPeople();
+      public static void AddNewPerson(PersonModel person)
+      {
+         List<PersonModel> people = GetAllPeople();
 
-            AddPersonToPeopleList(people, person);
+         AddPersonToPeopleList(people, person);
 
-            List<string> lines = ConvertModelsToCSV(people);
+         List<string> lines = ConvertModelsToCSV(people);
 
-            File.WriteAllLines(personTextFile, lines);
-        }
+         File.WriteAllLines(personTextFile, lines);
+      }
 
-        public static void AddPersonToPeopleList(List<PersonModel> people, PersonModel person)
-        {
-            if (string.IsNullOrWhiteSpace(person.FirstName))
-            {
-                throw new ArgumentException("You passed in an invalid parameter", "FirstName");
-            }
+      public static void AddPersonToPeopleList(List<PersonModel> people, PersonModel person)
+      {
 
-            if (string.IsNullOrWhiteSpace(person.LastName))
-            {
-                throw new ArgumentException("You passed in an invalid parameter", "LastName");
-            }
+         if (string.IsNullOrWhiteSpace(person.FirstName))
+         {
+            throw new ArgumentException("You passed in an invalid parameter", "FirstName");
+         }
 
-            people.Add(person);
-        }
+         if (string.IsNullOrWhiteSpace(person.LastName))
+         {
+            throw new ArgumentException("You passed in an invalid parameter", "LastName");
+         }
 
-        public static List<string> ConvertModelsToCSV(List<PersonModel> people)
-        {
-            List<string> output = new List<string>();
+         people.Add(person);
 
-            foreach (PersonModel user in people)
-            {
-                output.Add($"{ user.FirstName },{ user.LastName }");
-            }
+      }
 
-            return output;
-        }
+      public static List<string> ConvertModelsToCSV(List<PersonModel> people)
+      {
+         List<string> output = new List<string>();
 
-        public static List<PersonModel> GetAllPeople()
-        {
-            List<PersonModel> output = new List<PersonModel>();
-            string[] content = File.ReadAllLines(personTextFile);
+         foreach (PersonModel user in people)
+         {
+            output.Add($"{ user.FirstName },{ user.LastName }");
+         }
 
-            foreach (string line in content)
-            {
-                string[] data = line.Split(',');
-                output.Add(new PersonModel { FirstName = data[0], LastName = data[1] });
-            }
+         return output;
+      }
 
-            return output;
-        }
-    }
+      public static List<PersonModel> GetAllPeople()
+      {
+         List<PersonModel> output = new List<PersonModel>();
+         string[] content = File.ReadAllLines(personTextFile);
+
+         foreach (string line in content)
+         {
+            string[] data = line.Split(',');
+            output.Add(new PersonModel { FirstName = data[0], LastName = data[1] });
+         }
+
+         return output;
+      }
+   }
 }
