@@ -11,3 +11,16 @@ D:\Dev\DotNet\UnitTesting\WinFormUI\obj\Debug\WinFormUI.csproj.GenerateResource.
 D:\Dev\DotNet\UnitTesting\WinFormUI\obj\Debug\WinFormUI.csproj.CopyComplete
 D:\Dev\DotNet\UnitTesting\WinFormUI\obj\Debug\WinFormUI.exe
 D:\Dev\DotNet\UnitTesting\WinFormUI\obj\Debug\WinFormUI.pdb
+D:\Dev\DotNet\XUnit\DemoWinForm\WinFormUI\bin\Debug\PersonText.txt
+D:\Dev\DotNet\XUnit\DemoWinForm\WinFormUI\bin\Debug\WinFormUI.exe.config
+D:\Dev\DotNet\XUnit\DemoWinForm\WinFormUI\bin\Debug\WinFormUI.exe
+D:\Dev\DotNet\XUnit\DemoWinForm\WinFormUI\bin\Debug\WinFormUI.pdb
+D:\Dev\DotNet\XUnit\DemoWinForm\WinFormUI\bin\Debug\DemoLibrary.dll
+D:\Dev\DotNet\XUnit\DemoWinForm\WinFormUI\bin\Debug\DemoLibrary.pdb
+D:\Dev\DotNet\XUnit\DemoWinForm\WinFormUI\obj\Debug\WinFormUI.csprojAssemblyReference.cache
+D:\Dev\DotNet\XUnit\DemoWinForm\WinFormUI\obj\Debug\WinFormUI.Dashboard.resources
+D:\Dev\DotNet\XUnit\DemoWinForm\WinFormUI\obj\Debug\WinFormUI.Properties.Resources.resources
+D:\Dev\DotNet\XUnit\DemoWinForm\WinFormUI\obj\Debug\WinFormUI.csproj.GenerateResource.cache
+D:\Dev\DotNet\XUnit\DemoWinForm\WinFormUI\obj\Debug\WinFormUI.csproj.CopyComplete
+D:\Dev\DotNet\XUnit\DemoWinForm\WinFormUI\obj\Debug\WinFormUI.exe
+D:\Dev\DotNet\XUnit\DemoWinForm\WinFormUI\obj\Debug\WinFormUI.pdb
